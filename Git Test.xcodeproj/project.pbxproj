@@ -21,6 +21,7 @@
 		4544555B1992E99F00AEAE6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4544553D1992E99E00AEAE6C /* UIKit.framework */; };
 		454455631992E99F00AEAE6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 454455611992E99F00AEAE6C /* InfoPlist.strings */; };
 		454455651992E99F00AEAE6C /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 454455641992E99F00AEAE6C /* Git_TestTests.m */; };
+		454455731992F17400AEAE6C /* LDLGitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 454455721992F17400AEAE6C /* LDLGitTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		454455601992E99F00AEAE6C /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		454455621992E99F00AEAE6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		454455641992E99F00AEAE6C /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		454455711992F17400AEAE6C /* LDLGitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LDLGitTest.h; path = ../LDLGitTest.h; sourceTree = "<group>"; };
+		454455721992F17400AEAE6C /* LDLGitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LDLGitTest.m; path = ../LDLGitTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				4544554E1992E99E00AEAE6C /* LDLViewController.h */,
 				4544554F1992E99E00AEAE6C /* LDLViewController.m */,
 				454455511992E99E00AEAE6C /* Images.xcassets */,
+				454455711992F17400AEAE6C /* LDLGitTest.h */,
+				454455721992F17400AEAE6C /* LDLGitTest.m */,
 				454455401992E99E00AEAE6C /* Supporting Files */,
 			);
 			path = "Git Test";
@@ -253,6 +258,7 @@
 				454455501992E99E00AEAE6C /* LDLViewController.m in Sources */,
 				454455461992E99E00AEAE6C /* main.m in Sources */,
 				4544554A1992E99E00AEAE6C /* LDLAppDelegate.m in Sources */,
+				454455731992F17400AEAE6C /* LDLGitTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
